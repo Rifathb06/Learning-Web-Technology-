@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Profile Picture Validation</title>
+</head>
+<body>
+<form onsubmit="return validateProfile()">
+<fieldset style="width: fit-content;">
+            <legend for="userid">Profile Picture</legend>
+            User ID: <input type="text" id="userid"><br><br>
+            Picture: <input type="file" id="picture">
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+            <input type="submit" value="Submit">
+            <div id="proError" style="color:red"></div>
+        </fieldset>
+</form>
+<script src="profilepicture.js"></script>
+</body>
+</html>

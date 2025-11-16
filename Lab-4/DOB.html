@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Date of Birth Validation</title>
+</head>
+<body>
+<form onsubmit="return validateDOB()">
+<fieldset style="width: fit-content;">
+            <legend for="dd"><b>Date of Birth</b></legend>
+            <table>
+                <tr>
+                    <td align="center" >dd</td>
+                    <td align="center">mm</td>
+                    <td align="center">yyyy</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="dd" size="2" placeholder="dd">/ </td>
+                    <td><input type="text" id="mm" size="2" placeholder="mm"> / </td>
+                    <td><input type="text" id="yyyy" size="4" placeholder="yyyy"></td>
+                </tr>
+                
+            </table>
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+                <input type="submit" value="Submit">
+            <div id="dobError" style="color:red"></div>
+        </fieldset>
+
+</form>
+<script src="dob.js"></script>
+</body>
+</html>

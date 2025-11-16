@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Email Validation</title>
+</head>
+<body>
+<form onsubmit="return validateEmail()">
+   
+        <label>Email</label><br>
+        <input type="email" id="email" name="email">
+        <abbr title="hint: sample@example.com" style="text-decoration:none; cursor:help;">
+          &#9432;
+        </abbr><br><br>
+        <input type="submit" value="Submit">
+<div id="emailError" style="color:red"></div>
+</form>
+<script src="email.js"></script>
+</body>
+</html>

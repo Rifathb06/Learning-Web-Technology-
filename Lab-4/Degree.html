@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Degree Validation</title>
+</head>
+<body>
+<form onsubmit="return validateDegree()">
+<fieldset style="width: fit-content;">
+<legend>Degree</legend>
+<input type="checkbox" id="ssc" name="degree" value="SSC">
+<label for="ssc">SSC</label>
+<input type="checkbox" id="hsc" name="degree" value="HSC">
+<label for="hsc">HSC</label>
+<input type="checkbox" id="bsc" name="degree" value="BSc">
+<label for="bsc">BSc</label>
+</fieldset>
+<button type="submit">Submit</button>
+<div id="degreeErr" style="color:red"></div>
+</form>
+<script src="degree.js"></script>
+</body>
+</html>

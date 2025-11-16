@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Blood Group Validation</title>
+</head>
+<body>
+<form onsubmit="return validateBloodGroup()">
+<label for="bloodgroup">Blood Group</label>
+<select id="bloodgroup">
+<option value="">Select</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+</select>
+<hr style="margin-top: 10px; margin-bottom: 10px; width: 14%; margin-left: 0px;">
+<button type="submit">Submit</button>
+<div id="bloodError" style="color:red"></div>
+</form>
+<script src="bloodgroup.js"></script>
+</body>
+</html>

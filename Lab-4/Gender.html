@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Gender Validation</title>
+</head>
+<body>
+<form onsubmit="return validateGender()">
+<fieldset style="width:fit-content;">
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </fieldset>
+<button type="submit">Submit</button>
+<div id="genderError" style="color:red"></div>
+</form>
+<script src="gender.js"></script>
+</body>
+</html>
